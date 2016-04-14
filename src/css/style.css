@@ -1,8 +1,5 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
-body {
-	padding-top: 50px;
-	padding-bottom: 20px;
-}
+
 
 .my-nav {
 	background-image: linear-gradient(to bottom, #78909c 0%, #546e7a 100%);
@@ -18,11 +15,7 @@ body {
 	height: 100%;
 }
 
-.container-fluid {
-	height: 900px;
-	height: 100vh;
-	padding: 0;
-}
+
 
 .btn-div {
 	display: flex;
