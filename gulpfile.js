@@ -2,14 +2,14 @@
 
 var gulp = require('gulp');
 
-var inline = require('gulp-inline');
-var uglify = require('gulp-uglify');
-var minifyCss = require('gulp-minify-css');
+//var inline = require('gulp-inline');
+//var uglify = require('gulp-uglify');
+//var minifyCss = require('gulp-minify-css');
 
-var htmlmin = require('gulp-htmlmin');
-var jshint = require('gulp-jshint');
+//var htmlmin = require('gulp-htmlmin');
+//var jshint = require('gulp-jshint');
 
-var del = require('del');
+//var del = require('del');
 var browserSync = require("browser-sync");
 
 
