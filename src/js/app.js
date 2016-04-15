@@ -3,32 +3,38 @@ var projectsArray = [
 	{
 		image: 'img/nutrition-tracker-darker.png',
 		title: 'Nutrition Tracker Single-Page App',
-		skills: 'HTML, Backbone,'
+		skills: 'HTML, Backbone,',
+		cssClass: 'dark'
 	},
 	{
-		image: 'img/nutrition-tracker-darker.png',
-		title: 'Nutrition Tracker Single-Page App',
-		skills: 'HTML, Backbone,'
+		image: 'img/jasmine-logo.png',
+		title: 'Feed Reader Testing',
+		skills: 'Jasime, Backbone,',
+		cssClass: 'light'
 	},
 	{
-		image: 'img/nutrition-tracker-darker.png',
-		title: 'Nutrition Tracker Single-Page App',
-		skills: 'HTML, Backbone,'
+		image: 'img/neighborhood-dark.png',
+		title: 'Neighborhood Map Project',
+		skills: 'HTML, Backbone,',
+		cssClass: 'dark'
 	},
 	{
-		image: 'img/nutrition-tracker-darker.png',
-		title: 'Nutrition Tracker Single-Page App',
-		skills: 'HTML, Backbone,'
+		image: 'img/donald.png',
+		title: 'HTML5 Canvas Game - Make America Great, Again',
+		skills: 'HTML, Backbone,',
+		cssClass: 'dark'
 	},
 	{
-		image: 'img/nutrition-tracker-darker.png',
-		title: 'Nutrition Tracker Single-Page App',
-		skills: 'HTML, Backbone,'
+		image: 'img/resume-dark.png',
+		title: 'Interactive Resume',
+		skills: 'HTML, Backbone,',
+		cssClass: 'dark'
 	},
 	{
-		image: 'img/nutrition-tracker-darker.png',
-		title: 'Nutrition Tracker Single-Page App',
-		skills: 'HTML, Backbone,'
+		image: 'img/psi.png',
+		title: 'Web Optimization Project',
+		skills: 'HTML, Backbone,',
+		cssClass: 'light'
 	}
 ];
 
