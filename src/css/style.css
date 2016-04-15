@@ -1,3 +1,9 @@
+html {
+	font-family: 'Metrophobic', Arial, serif; font-weight: 400; 
+}
+
+
+
 .feature-container {
 	display: flex;
 	flex-wrap:wrap;
