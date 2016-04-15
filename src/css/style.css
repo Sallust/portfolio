@@ -1,6 +1,3 @@
-html {
-	font-family: 'Metrophobic', Arial, serif; font-weight: 400; 
-}
 
 
 
@@ -35,8 +32,13 @@ html {
 
 .over-text {
 	position: absolute;
-	top: 130px;
-	left: 50px; /*TODO revisit position here  */
+	top: 100px;
+	text-align: center; /*TODO revisit position here  */
+	
+	margin: auto;
+	color: white;
+	text-shadow: grey 0 0 1px;
+	
 }
 
 .skills-used {
