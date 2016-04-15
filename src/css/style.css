@@ -13,7 +13,7 @@
 	
 	
 	width: 33.33%;
-	border: solid 1px black;
+	border: solid 1px #777;
 	background: blue;
 	margin: auto;
 	height: 280px;
@@ -57,10 +57,18 @@
 	left: 0px;
 	right: 0px;
 
-	background: rgba(80, 80, 80, 0.58);
+	background: rgba(195, 195, 195, 0.58);
 	line-height: 1.4;
 	padding: 1em;
 	margin: 0;
+	
+	transform: translateY(47px);
+	transition: all ease 0.5s;
+}
+
+.tile:hover > .skills-used {
+	
+	transform: translateY(0);
 }
 
 
