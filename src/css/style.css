@@ -1,3 +1,14 @@
+.navbar-brand >.compass {
+	height:40px;
+	display: inline;
+	
+}
+
+.navbar-brand {
+	padding: 5px;
+}
+
+
 .jumbotron {
 	background-image:url("../img/dcmapblue.png");
 	background-size: cover;
