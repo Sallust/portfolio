@@ -23,6 +23,9 @@
 
 .bgrd-image {
 	height: 280px;
+	margin:auto;
+	width: 100%;
+	object-fit: cover;
 	
 	
 
@@ -34,11 +37,18 @@
 	position: absolute;
 	top: 100px;
 	text-align: center; /*TODO revisit position here  */
-	
+	width: 100%;
 	margin: auto;
-	color: white;
-	text-shadow: grey 0 0 1px;
 	
+	
+}
+.dark {
+	color: white;
+	text-shadow: #4C4B4B 0 0 2px;
+}
+
+.light {
+	color: #4C4B4B;
 }
 
 .skills-used {
