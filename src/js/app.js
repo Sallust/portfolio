@@ -1,4 +1,10 @@
 //app.js
+
+/*  
+Houses data to populate website
+Uses underscore template to populate tiles and footer
+Also includes jQuery animation for anchor links
+*/
 $(function() {
 	var projectsArray = [
 	{
@@ -61,22 +67,17 @@ var contactsArray = [
 		info: 'Sallust',
 		link: 'https://github.com/Sallust'
 	}
-	
 ];
-
-
-
 
 var container = $('#feature-container');
 var footer = $('#footer-contacts');
-
 
 var template = _.template($('#tile-template').html() );
 var footerTemplate = _.template($('#footer-template').html() );
 
 /**
-* @description Iterates over array of project obj, plugs into template, appends to page
-* 
+* @description Iterates over array of project/contact objects,
+*  plugs into template, appends to page
 */
 
 _.each(projectsArray, function(project) {
@@ -89,7 +90,7 @@ _.each(contactsArray, function(contact){
 	footer.append(footHTML);
 });
 
-
+//Animated scrolling
   $('.port-link').click(function(){  
     $('html, body').stop().animate({
         scrollTop: $( $(this).attr('href') ).offset().top
@@ -103,8 +104,6 @@ _.each(contactsArray, function(contact){
     }, 400);
     return false;
   });
-
-
 });
 
 
