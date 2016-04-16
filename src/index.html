@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Online Portfolio</title>
-    <link rel="stylesheet" href="css/lib/bootstrap.min.css">
-    <link rel="stylesheet" href="css/lib/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="css/lib/simple-sidebar.css">
-    <link rel="stylesheet" href="css/lib/jquery-ui.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Danny Haile|Front-end Developer Portfolio</title>
+  <link rel="stylesheet" href="css/lib/bootstrap.min.css">
+  <link rel="stylesheet" href="css/lib/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="css/lib/simple-sidebar.css">
+  <link rel="stylesheet" href="css/lib/jquery-ui.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     
 </head>
 <body>
 
-    <nav class="navbar navbar-default">
+<nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -25,80 +25,67 @@
       </button>
       <a class="navbar-brand" href="#">
         <img class="compass" src="img/compass.png">
-        <span>DANNY HAILE</span>
+        <div class="brand-text">
+          <header class="brand-name">DANNY HAILE</header>
+          <p class="brand-title">Front-end Web Developer</p>
+        </div>
+        
       </a>
     </div>
-
-    
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      
-      
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#footer-contacts" class="contacts-link">Contact</a></li>
         <li><a href="#feature-container" class="port-link">Portfolio</a></li>
-
-        
       </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+    </div>
+  </div>
 </nav>
 <div class="jumbotron">
   <h1>DANNY HAILE</h1>
-  <h2>Front-End Developer</h2>
-  <h5>HTML5 * CSS3 * JavaScript</h5>
-  
+  <h2>Front-end Developer</h2>
+  <h4>HTML • CSS • JavaScript</h4>
   <a class="port-link" href="#feature-container">
     <div class="featured-link">
-       <h3 class="featured-work-text">Featured Work</h3>
+      <h3 class="featured-work-text">Featured Work</h3>
       <span>▼</span>
     </div>
-   
   </a>
 </div>
 
 <section class="feature-container" id="feature-container">
   <a id="feature-container"></a>
 </section>
+
 <footer>
-  
   <div class="contact-links">
-     <ul class="footer-contacts" id="footer-contacts">
-     </ul>
+     <ul class="footer-contacts" id="footer-contacts"></ul>
   </div>
 </footer>
 
-    <script type="text/template" id="tile-template">
-      <div class="tile">
-        <img class="bgrd-image" src="<%= image %>">
-        <a target="_blank" href="<%= url %>">
-          <h3 class="over-text <%= cssClass %>"><%= title %></h3>
-        </a>
-        
-        <p class="skills-used">
-          <%= skills %>
-        </p>
-      </div>
-    </script>
+<script type="text/template" id="tile-template">
+  <div class="tile">
+    <img class="bgrd-image" src="<%= image %>">
+    <a target="_blank" href="<%= url %>">
+      <h3 class="over-text <%= cssClass %>"><%= title %></h3>
+    </a>
+    <p class="skills-used"><%= skills %></p>
+  </div>
+</script>
 
-    <script type="text/template" id="footer-template">
-      <li>
-        <a href="<%= link %>">
-         <span class="title-text"><%= title %></span>
-         <span class="info-text"><%= info %></span>
-        </a>
-       </li>
-    </script>
+<script type="text/template" id="footer-template">
+  <li>
+    <a href="<%= link %>">
+     <span class="title-text"><%= title %></span>
+     <span class="info-text"><%= info %></span>
+    </a>
+   </li>
+</script>
 
-    <!--   -->
-
-    <script src="js/lib/jquery-2.2.0.min.js"></script>
-    <script src="js/lib/jquery-ui.min.js"></script>
-    <script src="js/lib/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
-    <script src="js/app.js"></script>
-    
-   
-    
+<script src="js/lib/jquery-2.2.0.min.js"></script>
+<script src="js/lib/jquery-ui.min.js"></script>
+<script src="js/lib/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+<script src="js/app.js"></script>
 
 </body>
 </html>

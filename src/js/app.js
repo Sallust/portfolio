@@ -4,7 +4,7 @@ var projectsArray = [
 		image: 'img/nutrition-tracker-darker.png',
 		title: 'Nutrition Tracker Single-Page App',
 		url: 'http://sallust.github.io/nutrition-tracker-p5b/',
-		skills: 'Backbone • d3 • AJAX • JavaScript • HTML5 • CSS • Firebase • jQuery • gulp',
+		skills: 'Backbone • d3 • AJAX • JavaScript • HTML5 • CSS • Firebase • jQuery • gulp • Responsive Design',
 		cssClass: 'dark'
 	},
 	{
@@ -18,7 +18,7 @@ var projectsArray = [
 		image: 'img/neighborhood-dark.png',
 		title: 'Neighborhood Map Project',
 		url: 'http://sallust.github.io/fend-p5-neighborhood-map/',
-		skills: 'AJAX •  JavaScript •  jQuery •  HTML5 •  CSS •  Knockout •  Data Persistence',
+		skills: 'AJAX •  JavaScript •  jQuery •  HTML5 •  CSS •  Knockout •  Data Persistence • Responsive Design',
 		cssClass: 'dark'
 	},
 	{
@@ -32,7 +32,7 @@ var projectsArray = [
 		image: 'img/resume-dark.png',
 		title: 'Interactive Resume',
 		url: 'http://sallust.github.io/',
-		skills: 'Google Polymer •  HTML5 •  CSS •  jQuery',
+		skills: 'Google Polymer •  HTML5 •  CSS •  jQuery • Responsive Design',
 		cssClass: 'dark'
 	},
 	{
