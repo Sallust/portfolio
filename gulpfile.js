@@ -2,12 +2,12 @@
 
 var gulp = require('gulp');
 
-//var inline = require('gulp-inline');
-//var uglify = require('gulp-uglify');
-//var minifyCss = require('gulp-minify-css');
+var inline = require('gulp-inline');
+var uglify = require('gulp-uglify');
+var minifyCss = require('gulp-minify-css');
 
-//var htmlmin = require('gulp-htmlmin');
-//var jshint = require('gulp-jshint');
+var htmlmin = require('gulp-htmlmin');
+var jshint = require('gulp-jshint');
 
 //var del = require('del');
 var browserSync = require("browser-sync");
@@ -22,8 +22,8 @@ gulp.task('optimize-stack', function() {
 	.pipe(inline({
 		js: uglify,
 		css:minifyCss,
-		disabledTypes: ['svg','img'],
-		ignore: ['js/lib/knockout-3.4.0.js', 'src/css/lib', 'js/analytics.js']
+		disabledTypes: ['svg','img']
+		//ignore: ['js/lib/knockout-3.4.0.js', 'src/css/lib', 'js/analytics.js']
 	}))
 	.pipe(htmlmin({
 		collapseWhitespace: true,
