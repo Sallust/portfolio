@@ -35,4 +35,14 @@
 * Danny Haile
 * haile@post.harvard.edu
 
+#### Future Extensions
+
+* Incorporate graphical representation of skills into portfolio (currently is in resume)
+
+* Use cleaner anchor link transitions (CSS vs. jQuery)
+
+* Possible new design components 
+	* fixed nav bar
+	* Modals with descriptions instead of direct links
+
 
