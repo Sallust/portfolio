@@ -58,15 +58,29 @@ gulp.task('lint', function() {
 });
 
 gulp.task('resize', function () {
-  gulp.src('src/img/dcmapblueblur.png')
+  gulp.src('src/img/compass.png')
     .pipe(imageResize({
-    	width : 1250,
+    	width : 40,
+    	imageMagick : true
+    	//format: 'jpeg'
+    	 }))
+    .pipe(imagemin())
+    .pipe(rename({
+    	suffix: '-40'
+    }))
+    .pipe(gulp.dest('src/img/min'));
+});
+
+gulp.task('resize-port-imgs', function () {
+  gulp.src('src/img/port-img/*')
+    .pipe(imageResize({
+    	width : 500,
     	imageMagick : true,
     	format: 'jpeg'
     	 }))
     .pipe(imagemin())
     .pipe(rename({
-    	suffix: '-1250'
+    	suffix: '-500'
     }))
     .pipe(gulp.dest('src/img/min'));
 });
