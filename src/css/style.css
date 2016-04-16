@@ -1,3 +1,6 @@
+html {
+	-webkit-font-smoothing: antialiased;
+}
 a {
 	-webkit-transition: color 0.4s;
 	transition: color 0.4s;
@@ -71,9 +74,12 @@ a {
 	text-align: center; /*TODO revisit position here  */
 	width: 100%;
 	margin: auto;
+	transition: ease 0.3s;
 	
 	
 }
+
+
 .dark {
 	color: white;
 	text-shadow: #4C4B4B 0 0 2px;
@@ -102,6 +108,12 @@ a {
 .tile:focus > .skills-used {
 	transform: translateY(0);
 }
+
+.tile:hover > a .over-text,
+.tile:focus > a .over-text {
+	transform: scale(1.05);
+}
+
 
 .footer-header {
 	background:blue;
