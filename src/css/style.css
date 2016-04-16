@@ -1,3 +1,7 @@
+a {
+	-webkit-transition: color 0.4s;
+	transition: color 0.4s;
+}
 .navbar-brand >.compass {
 	height:40px;
 	display: inline;
@@ -94,11 +98,10 @@
 	transition: all ease 0.5s;
 }
 
-.tile:hover > .skills-used {
-	
+.tile:hover > .skills-used,
+.tile:focus > .skills-used {
 	transform: translateY(0);
 }
-
 
 .footer-header {
 	background:blue;
