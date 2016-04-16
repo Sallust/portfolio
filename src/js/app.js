@@ -3,36 +3,42 @@ var projectsArray = [
 	{
 		image: 'img/nutrition-tracker-darker.png',
 		title: 'Nutrition Tracker Single-Page App',
+		url: 'http://sallust.github.io/nutrition-tracker-p5b/',
 		skills: 'HTML, Backbone,',
 		cssClass: 'dark'
 	},
 	{
 		image: 'img/jasmine-logo.png',
 		title: 'Feed Reader Testing',
+		url: 'https://github.com/Sallust/frontend-nanodegree-feedreader',
 		skills: 'Jasime, Backbone,',
 		cssClass: 'light'
 	},
 	{
 		image: 'img/neighborhood-dark.png',
 		title: 'Neighborhood Map Project',
+		url: 'http://sallust.github.io/fend-p5-neighborhood-map/',
 		skills: 'HTML, Backbone,',
 		cssClass: 'dark'
 	},
 	{
 		image: 'img/donald.png',
 		title: 'HTML5 Canvas Game - Make America Great, Again',
+		url: 'http://sallust.github.io/frontend-nanodegree-arcade-game/',
 		skills: 'HTML, Backbone,',
 		cssClass: 'dark'
 	},
 	{
 		image: 'img/resume-dark.png',
 		title: 'Interactive Resume',
+		url: 'http://sallust.github.io/',
 		skills: 'HTML, Backbone,',
 		cssClass: 'dark'
 	},
 	{
 		image: 'img/psi.png',
 		title: 'Web Optimization Project',
+		url: 'https://github.com/Sallust/FEND-optimize',
 		skills: 'HTML, Backbone,',
 		cssClass: 'light'
 	}

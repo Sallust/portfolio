@@ -45,7 +45,7 @@
 <div class="jumbotron">
   <h1>DANNY HAILE</h1>
   <h2>Front-End Developer</h2>
-  <h5>HTML * CSS</h5>
+  <h5>HTML5 * CSS3 * JavaScript</h5>
   
   <a class="port-link" href="#feature-container">
     <h5 class="featured-work-text">Featured Work</h5>
@@ -67,7 +67,10 @@
     <script type="text/template" id="tile-template">
       <div class="tile">
         <img class="bgrd-image" src="<%= image %>">
-        <h3 class="over-text <%= cssClass %>"><%= title %></h3>
+        <a target="_blank" href="<%= url %>">
+          <h3 class="over-text <%= cssClass %>"><%= title %></h3>
+        </a>
+        
         <p class="skills-used">
           <%= skills %>
         </p>
