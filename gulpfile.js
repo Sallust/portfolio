@@ -12,7 +12,10 @@ var gulp = require('gulp');
 //var del = require('del');
 var browserSync = require("browser-sync");
 
-
+var imageResize = require('gulp-image-resize');
+var rename = require('gulp-rename');
+var imagemin = require('gulp-imagemin');
+var pngquant = require('imagemin-pngquant');
 
 gulp.task('optimize-stack', function() {
 	gulp.src('src/index.html')
@@ -54,9 +57,48 @@ gulp.task('lint', function() {
         .pipe(jshint.reporter('default'));
 });
 
+gulp.task('resize', function () {
+  gulp.src('src/img/dcmapblueblur.png')
+    .pipe(imageResize({
+    	width : 1250,
+    	imageMagick : true,
+    	format: 'jpeg'
+    	 }))
+    .pipe(imagemin())
+    .pipe(rename({
+    	suffix: '-1250'
+    }))
+    .pipe(gulp.dest('src/img/min'));
+});
+
+var resizeImageTasks = [];
+
+[520,830,1250].forEach(function(size) {
+	var resizeImage = 'resize_'+ size;
+	gulp.task(resizeImage, function() {
+		return	gulp.src('src/img/dcmapblueblur.png')
+			.pipe(imageResize({
+				width: size,
+				imageMagick : true,
+				format: 'jpeg'
+			}))
+			.pipe(imagemin())
+			.pipe(rename({
+				suffix: '-'+ size
+			}))
+			.pipe(gulp.dest('src/img/min'))
+	});
+	resizeImageTasks.push(resizeImage);
+});
+
+gulp.task('resize-images', resizeImageTasks);
+
+
 gulp.task('watch', function() {
     gulp.watch('src/index.html', ['optimize-stack']);
 });
+
+
 
 gulp.task('brow-sync', function() {
 	browserSync.init({
