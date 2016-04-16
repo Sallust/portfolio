@@ -4,42 +4,42 @@ var projectsArray = [
 		image: 'img/nutrition-tracker-darker.png',
 		title: 'Nutrition Tracker Single-Page App',
 		url: 'http://sallust.github.io/nutrition-tracker-p5b/',
-		skills: 'HTML, Backbone,',
+		skills: 'Backbone • d3 • AJAX • JavaScript • HTML5 • CSS • Firebase • jQuery • gulp',
 		cssClass: 'dark'
 	},
 	{
 		image: 'img/jasmine-logo.png',
 		title: 'Feed Reader Testing',
 		url: 'https://github.com/Sallust/frontend-nanodegree-feedreader',
-		skills: 'Jasime, Backbone,',
+		skills: 'Jasime •  JavaScript Tesing Frameworks •  JavaScript', 
 		cssClass: 'light'
 	},
 	{
 		image: 'img/neighborhood-dark.png',
 		title: 'Neighborhood Map Project',
 		url: 'http://sallust.github.io/fend-p5-neighborhood-map/',
-		skills: 'HTML, Backbone,',
+		skills: 'AJAX •  JavaScript •  jQuery •  HTML5 •  CSS •  Knockout •  Data Persistence',
 		cssClass: 'dark'
 	},
 	{
 		image: 'img/donald.png',
 		title: 'HTML5 Canvas Game - Make America Great, Again',
 		url: 'http://sallust.github.io/frontend-nanodegree-arcade-game/',
-		skills: 'HTML, Backbone,',
+		skills: 'Photoshop •  HTML5 Canvas •  HTML5 •  CSS •  JavaScript •  Object-Oriented Programming',
 		cssClass: 'dark'
 	},
 	{
 		image: 'img/resume-dark.png',
 		title: 'Interactive Resume',
 		url: 'http://sallust.github.io/',
-		skills: 'HTML, Backbone,',
+		skills: 'Google Polymer •  HTML5 •  CSS •  jQuery',
 		cssClass: 'dark'
 	},
 	{
 		image: 'img/psi.png',
 		title: 'Web Optimization Project',
 		url: 'https://github.com/Sallust/FEND-optimize',
-		skills: 'HTML, Backbone,',
+		skills: 'Chrome Developer Tools •  Critical Rendering Path •  HTML5 •  CSS •  60 FPS Rendering',
 		cssClass: 'light'
 	}
 ];
