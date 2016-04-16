@@ -1,45 +1,38 @@
-#Neighborhood Map Project
+#Portfolio of Featured Work
 
-* Navigate to dist folder and open index.html to see my project 5 neighborhood Map Project.
+* 	[Click here to see the finished product!](http://sallust.github.io/portfolio/)
 
-* All dependencies are areadly included.
+* Dependencies are already included.
 
-* To run gulp build process fist run `npm install` in root folder (assuming npm is already installed globaly)
+* Components render responsive to size of viewport.
 
-* Then run gulp by running gulp `gulp` from cmd line in root folder
+##Tools used
 
-* The non-minified version with comments and documentation is in the src folder.
+* Customized bootstrap via less variables for styling
 
-* One list of top picks was initialy provided.
+* Underscore for templating
 
-* Remaining place names are from the foursquare API.
+* jQuery for Animation and DOM manipulation
 
-* Click category buttons at the top to navagate through these categories.
+##Build Tools
 
-* Place data is provided by google maps & a call to the wiki API provides the wiki link when available.
+* browser sync for streamlined work-flow
 
-* Brief disabled period on buttons is to prevent an error from google due to exceeding 10 query/second.
+* inline, uglify, minifyCss, htmlmin to optimize files for performance
 
-* Other fallbacks incorporated, notifying user if google fails to provide info.
+* image-resize, imagemin, pngquant, and imageMagick to optimize image files
 
-* An additional search filter by categories is available.
+##To see non-minified files
 
-* It is created from the array of place type provided with each place.
+* Navigate to src folder and open index.html file
 
-* I used gulp to minifify and lint the src code. The production code is in the dist file.
+* See js/app.js to see data and template creation 
 
-* App stores place data in local storage.
+* Css/style.css includes customized styles
 
-* On open, checks to get localStorage data when available (by individual category)
 
-* Markers vary by individual category.
+## Contact Me!!
+* Danny Haile
+* haile@post.harvard.edu
 
-* Jquery autocomplete allows for autocomplete function
 
-* Used bootstrap for styling and collapsing nav.
-
-* Application components render responsive to size of viewport.
-
-* Application loads from 3 arrays; category names, top Picks, and marker icon locations.
-
-* App is hopefully easily extendable then.
