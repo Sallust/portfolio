@@ -34,6 +34,13 @@ a {
 	margin: 0;
 	
 }
+.featured-link {
+	transition: transform ease-in-out 0.3s;
+}
+
+.featured-link:hover {
+	transform: translateY(0.6em);
+}
 
 
 .feature-container {
@@ -111,7 +118,7 @@ a {
 
 .tile:hover > a .over-text,
 .tile:focus > a .over-text {
-	transform: scale(1.05);
+	transform: scale(0.95);
 }
 
 
