@@ -31,7 +31,8 @@ a {
 	margin: 0;
 }
 .jumbotron {
-	background-image:url("../img/dcmapblueblur.png");
+	background:#3D468C;
+	/*background-image:url("../img/dcmapblueblur.png");*/
 	background-size: cover;
 	margin:0;
 	
@@ -168,12 +169,26 @@ a {
 	.tile {
 		width: 50%;
 	}
+
+	.jumbotron {
+		background-image:url("img/dcmapblur-830.jpeg");
+	}
 }
 
 
 @media screen and (max-width: 520px) {
 	.tile {
 		width: 100%;
+	}
+
+	.jumbotron {
+		background-image:url("img/dcmapblur-520.jpeg");
+	}
+}
+
+@media screen and (min-width: 830px) {
+	.jumbotron {
+		background-image:url("img/dcmapblur-1250.jpeg");
 	}
 }
 

@@ -1,42 +1,43 @@
 //app.js
-var projectsArray = [
+$(function() {
+	var projectsArray = [
 	{
-		image: 'img/nutrition-tracker-darker.png',
+		image: 'img/nutrition-500.jpeg',
 		title: 'Nutrition Tracker Single-Page App',
 		url: 'http://sallust.github.io/nutrition-tracker-p5b/',
 		skills: 'Backbone • d3 • AJAX • JavaScript • HTML5 • CSS • Firebase • jQuery • gulp • Responsive Design',
 		cssClass: 'dark'
 	},
 	{
-		image: 'img/jasmine-logo.png',
+		image: 'img/jasmine-500.jpeg',
 		title: 'Feed Reader Testing',
 		url: 'https://github.com/Sallust/frontend-nanodegree-feedreader',
 		skills: 'Jasime •  JavaScript Tesing Frameworks •  JavaScript', 
 		cssClass: 'light'
 	},
 	{
-		image: 'img/neighborhood-dark.png',
+		image: 'img/neighborhood-500.jpeg',
 		title: 'Neighborhood Map Project',
 		url: 'http://sallust.github.io/fend-p5-neighborhood-map/',
 		skills: 'AJAX •  JavaScript •  jQuery •  HTML5 •  CSS •  Knockout •  Data Persistence • Responsive Design',
 		cssClass: 'dark'
 	},
 	{
-		image: 'img/donald.png',
+		image: 'img/donald-500.jpeg',
 		title: 'HTML5 Canvas Game - Make America Great, Again',
 		url: 'http://sallust.github.io/frontend-nanodegree-arcade-game/',
 		skills: 'Photoshop •  HTML5 Canvas •  HTML5 •  CSS •  JavaScript •  Object-Oriented Programming',
 		cssClass: 'dark'
 	},
 	{
-		image: 'img/resume-dark.png',
+		image: 'img/resume-500.jpeg',
 		title: 'Interactive Resume',
 		url: 'http://sallust.github.io/',
 		skills: 'Google Polymer •  HTML5 •  CSS •  jQuery • Responsive Design',
 		cssClass: 'dark'
 	},
 	{
-		image: 'img/psi.png',
+		image: 'img/psi-500.jpeg',
 		title: 'Web Optimization Project',
 		url: 'https://github.com/Sallust/FEND-optimize',
 		skills: 'Chrome Developer Tools •  Critical Rendering Path •  HTML5 •  CSS •  60 FPS Rendering',
@@ -102,6 +103,9 @@ _.each(contactsArray, function(contact){
     }, 400);
     return false;
   });
+
+
+});
 
 
 
