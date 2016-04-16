@@ -83,5 +83,20 @@ _.each(contactsArray, function(contact){
 });
 
 
+  $('.port-link').click(function(){  
+    $('html, body').stop().animate({
+        scrollTop: $( $(this).attr('href') ).offset().top
+    }, 400);
+    return false;
+  });
+
+  $('.contacts-link').click(function(){  
+    $('html, body').stop().animate({
+        scrollTop: $( $(this).attr('href') ).offset().top
+    }, 400);
+    return false;
+  });
+
+
 
 
