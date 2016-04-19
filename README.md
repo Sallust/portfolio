@@ -45,4 +45,7 @@
 	* fixed nav bar
 	* Modals with descriptions instead of direct links
 
+#### Attributions
+* object-fit fall back for IE from [bfred-it/object-fit-images](https://github.com/bfred-it/object-fit-images/)
+
 
