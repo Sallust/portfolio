@@ -90,7 +90,7 @@ var resizeImageTasks = [];
 [520,830,1250].forEach(function(size) {
 	var resizeImage = 'resize_'+ size;
 	gulp.task(resizeImage, function() {
-		return	gulp.src('src/img/dcmapblueblur.png')
+		return	gulp.src('src/img/dcmapblur.png')
 			.pipe(imageResize({
 				width: size,
 				imageMagick : true,
@@ -100,7 +100,7 @@ var resizeImageTasks = [];
 			.pipe(rename({
 				suffix: '-'+ size
 			}))
-			.pipe(gulp.dest('src/img/min'))
+			.pipe(gulp.dest('dist/img'));
 	});
 	resizeImageTasks.push(resizeImage);
 });
