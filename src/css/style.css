@@ -36,6 +36,7 @@ a {
 .jumbotron {
 	background:#3D468C;
 	background-size: cover;
+	background-position: 50% 50%;
 	margin:0;
 	text-align: center;
 }
