@@ -66,6 +66,11 @@ var contactsArray = [
 		title: 'github',
 		info: 'Sallust',
 		link: 'https://github.com/Sallust'
+	},
+	{
+		title: 'linkedIn',
+		info: 'DannyHaile',
+		link: 'https://www.linkedin.com/in/dannyhaile'
 	}
 ];
 
