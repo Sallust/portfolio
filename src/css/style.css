@@ -109,10 +109,11 @@ a {
 	margin: 0;
 	transform: translateY(100px);
 	transition: all ease 0.5s;
+	color: #333;
 }
 
-.tile:hover > .skills-used,
-.tile:focus > .skills-used {
+.tile:hover > a .skills-used,
+.tile:focus > a .skills-used {
 	transform: translateY(0);
 }
 
